@@ -4,6 +4,7 @@ This sprint challenge combines the knowledge from this week's Java Fundamentals 
 
 # Instructions
 
+
 We have a magical "piggy bank" (a piggy bank is the traditional name of a place to store coins, bills, money). The piggy bank is magical because it can hold unlimited amounts of money. However, you can not get the money out of it.
 
 Create a collection (array, arraylist, or hashmap) to represent the piggy bank. The collection can hold money.  

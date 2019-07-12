@@ -6,24 +6,24 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		ArrayList<Money> piggyBank = new ArrayList<>();
+		ArrayList<Money> piggyBank1 = new ArrayList<>();
 
-		piggyBank.add(new Dollar(5, 1));
-		piggyBank.add(new Quarter(1, 0));
-		piggyBank.add(new Dime(17, 0));
-		piggyBank.add(new Nickel(55, 0));
-		piggyBank.add(new Penny(12, 0));
+		piggyBank1.add(new Dollar(5, 1));
+		piggyBank1.add(new Quarter(1, 0));
+		piggyBank1.add(new Dime(17, 0));
+		piggyBank1.add(new Nickel(55, 0));
+		piggyBank1.add(new Penny(12, 0));
 
-		piggyBank.forEach(piggy -> System.out.println(piggy.stringValue()));
+		piggyBank1.forEach(piggy -> System.out.println(piggy.stringValue()));
 
 		double myPiggies = 0.0;
-		for (Money m : piggyBank)
+		for (Money m : piggyBank1)
 		{
 			myPiggies = myPiggies + m.getValue();
 		}
 
 		double notMyPiggies = 0.0;
-		for (Money m : piggyBank)
+		for (Money m : piggyBank1)
 		{
 			notMyPiggies = myPiggies - notMyPiggies - m.getReducedValue();
 		}

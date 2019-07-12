@@ -1,4 +1,4 @@
-package piggyBank
+package piggyBank;
 
 public class Nickel extends Money
 {

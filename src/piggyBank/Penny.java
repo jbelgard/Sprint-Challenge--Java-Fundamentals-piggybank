@@ -15,7 +15,7 @@ public class Penny extends Money
 	}
 
 	@Override
-	public String stringValue()
+	public String toString()
 	{
 		return super.toString();
 	}
